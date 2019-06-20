@@ -16,7 +16,7 @@ class InteractiveRecord
     
     table_info.map do |column| 
       column["name"]
-    end
+    end.compact
   end 
   
   
